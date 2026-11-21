@@ -52,7 +52,7 @@
 </style>
 
 <h1>Privacy Policy — Mind Palace</h1>
-<p class="meta">Effective date: August 29, 2026<br>
+<p class="meta">Effective date: August 29, 2026 (updated November 21, 2026: reminder permissions, iOS)<br>
 App: Mind Palace (package <code>com.kaomidevstudio.mindpalace</code>)<br>
 Developer: Kaomi Dev Studio</p>
 
@@ -67,9 +67,14 @@ device identifiers, usage analytics, crash reports, advertising identifiers, or 
 or your device.</p>
 
 <h2>2. Permissions</h2>
-<p>The only Android permission requested by Mind Palace is <code>android.permission.VIBRATE</code>, used
-solely to provide haptic feedback during gameplay (for example, a short vibration on certain in-game events).
-This permission does not grant access to any personal data and cannot be used to collect information.</p>
+<p>On Android, Mind Palace requests only these permissions, none of which grant access to personal data:</p>
+<ul>
+  <li><code>android.permission.VIBRATE</code> — haptic feedback during gameplay (for example, a short vibration on certain in-game events).</li>
+  <li><code>android.permission.POST_NOTIFICATIONS</code> — only if you turn on the optional daily reminder, so the app can show one local "time to practise" notification. You can decline it or turn it off at any time in the app or in your phone settings.</li>
+  <li><code>android.permission.RECEIVE_BOOT_COMPLETED</code> — only so a daily reminder you turned on is re-scheduled after your phone restarts.</li>
+</ul>
+<p>Reminders are scheduled and shown entirely on your device. No server is involved and nothing is sent anywhere.
+On iPhone and iPad, the app asks for permission to show notifications only if you turn on the optional reminder.</p>
 <p>Mind Palace does <strong>not</strong> request internet access. The app has no network permission and
 cannot connect to the internet, so it cannot send data anywhere even if it wanted to.</p>
 
